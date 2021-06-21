@@ -55,7 +55,7 @@ function comunicaServidor(){
     var senha_hash_md5 = $.MD5(senha);
     // mandando para o arquivo php e verificando se os inputs coincidem com o cadastro
     $.ajax({
-        type:"POST",
+        type:"GET",
         dataType:"json",
         url:"../php/gravarDados.php",
         data: {ch_nome:nome, ch_sobrenome:sobrenome, ch_senha:senha_hash_md5, ch_idade:idade, ch_cidade:cidade},
