@@ -1,0 +1,148 @@
+/*configurações do titulo em cima do site*/
+h1 {
+    position:relative;
+    width:100%;
+    height:80px;
+    background-color: crimson;
+    text-align: center;
+    font-size: 60px;
+}
+/*configurações do texto falando sobre a página*/
+h2 {
+    left: 25%;
+    text-align: center;
+}
+
+/* configurações dos botões quando são criados*/
+button {
+    width:50%;
+    height:80px;
+    position:relative;
+    top: center;
+    left: 25%;
+    background-color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* sempre que criar um fundo do site vai ser cinza*/
+body {
+    background-color: darkgrey;
+}
+
+/* IMAGENS E TEXTOS DA PAGINA IMAGENS */
+/* imagem do gnomo */
+#primeira {
+    position: absolute;
+    margin:150px;
+    max-width:400px;
+    max-height:350px;
+    width: auto;
+    height: auto;
+    
+}
+
+/* texto em cima da imagem do gnomo */
+#primeiroTexto{
+    position: absolute;
+    top: 270px;
+    left: 230px;
+}
+
+/* imagem do lol */
+#segunda {
+    position: absolute;
+    margin:150px;
+    max-width:400px;
+    max-height:350px;
+    width: auto;
+    height: auto;
+    left: 300px;
+    
+}
+
+/* texto em cima da imagem do lol*/
+#segundoTexto {
+    position: absolute;
+    top: 270px;
+    left: 630px;
+}
+
+/* imagem do macaco cortando o cabelo*/
+#terceira {
+    position: absolute;
+    margin:150px;
+    max-width:400px;
+    max-height:350px;
+    width: auto;
+    height: auto;
+    left: 765px;   
+}
+
+/* texto em cima da imagem do macaco cortando o cabelo*/
+#terceiroTexto{
+    position: absolute;
+    top: 270px;
+    left: 940px;
+}
+
+/* imagem do amogus */
+#quarta {
+    position: relative;
+    margin:150px;
+    max-width:400px;
+    max-height:350px;
+    width: auto;
+    height: auto;
+    left: 1075px;
+}
+
+/* texto em cima da imagem do amogus*/
+#quartoTexto {
+    position: absolute;
+    top: 270px;
+    left: 1290px;
+}
+
+
+/* VIDEOS E TEXTOS DA PAGINA VIDEOS*/
+/* vídeo gnome power*/
+#primeiroVideo {
+    position: relative;
+    margin:100px;
+
+}
+/* vídeo do bee move*/
+#segundoVideo {
+    position: relative;
+    margin:100px;
+    float: right;
+}
+
+/* texto em cima do víde gnome power*/
+#gnome {
+    position: absolute;
+    top: 220px;
+    left: 290px;
+}
+
+/* texto em cima do vídeo bee movie*/
+#bee {
+    position: absolute;
+    top: 220px;
+    left: 1090px;
+}
+
+/* PÁGINA LOGIN */
+/* ajustar inputs da página login*/
+input {
+    width:50%;
+    height:80px;
+    position:relative;
+    top: center;
+    left: 25%;
+    background-color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
