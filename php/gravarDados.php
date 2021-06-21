@@ -1,3 +1,10 @@
+<html>
+    <head>
+        <title>PHP Reading from a file</title>
+    </head>
+<body>
+    <h1>Output</h1>
+
 <?php
 	// receber os dados dos inputs do login
 	$nome = $_POST["ch_nome"];
@@ -24,3 +31,5 @@
 		echo $json;
 	}
 ?>
+</body>
+</html>
