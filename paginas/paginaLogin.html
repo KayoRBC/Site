@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <!-- carregar o arquivo CSS -->
+        <link rel="stylesheet" type"text/css" href="../css/style.css"/>
+        <!-- identidicar caracteres especiais -->
+        <meta charset="utf-8">
+        <!-- carregar os arquivos em JS -->
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="../js/jquery.md5.js"></script>
+        <script src="../js/funcoes.js"> </script>
+
+    </head>
+
+    <body>
+        <!-- textos da página -->
+        <h1>LOGIN</h1>
+        <h2>FAÇA O SEU LOGIN</h2>
+        <!-- inputs do login -->
+        <input type="text" placeholder="Nome" id="nome"/> <br>
+        <input type="text" placeholder="Sobrenome" id="sobrenome"/> <br>
+        <input type="password" placeholder="senha" id="senha"/> <br>
+        <input type="text" placeholder="Idade" id="idade"/> <br>
+        <input type="text" placeholder="Cidade" id="cidade"/> <br>
+
+        <!-- botão que ao clicar chama a função gravarDados() -->
+        <button onclick="gravarDados()">Gravar</button>
+        
+    </body>
+</html>
