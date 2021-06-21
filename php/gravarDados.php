@@ -1,10 +1,10 @@
 <?php
 	// receber os dados dos inputs do login
-	$nome = $_POST["ch_nome"];
-	$sobrenome = $_POST["ch_sobrenome"];
-	$senha = $_POST["ch_senha"];
-	$idade = $_POST["ch_idade"];
-	$cidade = $_POST["ch_cidade"];
+	$nome = $_GET["ch_nome"];
+	$sobrenome = $_GET["ch_sobrenome"];
+	$senha = $_GET["ch_senha"];
+	$idade = $_GET["ch_idade"];
+	$cidade = $_GET["ch_cidade"];
 
 	$texto = file_get_contents("../musica.txt");
 
